@@ -1,0 +1,11 @@
+{
+  "title": "SendMessageRequestParams",
+  "type": "object",
+  "properties": {
+    "contactId": {
+      "type": "string"
+    }
+  },
+  "required": ["contactId"],
+  "additionalProperties": false
+}

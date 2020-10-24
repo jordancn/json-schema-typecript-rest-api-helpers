@@ -1,0 +1,6 @@
+{
+  "title": "GetMessagesRequestBody",
+  "type": "object",
+  "properties": {},
+  "additionalProperties": false
+}

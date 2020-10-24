@@ -1,0 +1,24 @@
+{
+  "title": "GetMessagesOkResponse",
+  "type": "object",
+  "properties": {
+    "messages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "timestamp": {
+            "type": "string"
+          },
+          "message": {
+            "type": "string"
+          }
+        },
+        "required": ["timestamp", "message"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["messages"],
+  "additionalProperties": false
+}

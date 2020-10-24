@@ -1,0 +1,6 @@
+{
+  "title": "SendMessageOkResponse",
+  "type": "object",
+  "properties": {},
+  "additionalProperties": false
+}

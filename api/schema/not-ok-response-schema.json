@@ -1,0 +1,22 @@
+{
+    "title": "GenericNotOkResponse",
+    "anyOf": [{ "$ref": "#/definitions/ServerError" }, { "$ref": "#/definitions/ApplicationError" }],
+    "definitions": {
+        "ServerError": {
+            "type": "object",
+            "properties": {
+                "statusCode": { "type": "number" },
+                "message": { "type": "string" }
+            },
+            "required": ["statusCode", "message"]
+        },
+        "ApplicationError": {
+            "type": "object",
+            "properties": {
+                "statusCode": { "type": "number" },
+                "message": { "type": "string" }
+            },
+            "required": ["errorCode", "errorDescription"]
+        }
+    }
+}
