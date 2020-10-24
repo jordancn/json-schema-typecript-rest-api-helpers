@@ -4,8 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "ts-node sample.ts",
-    "api:generate-types": "ts-node utils/generate-api-schema-types"
+    "run-sample": "ts-node sample.ts",
+    "generate-types": "ts-node utils/generate-api-schema-types"
   },
   "dependencies": {
     "@types/glob": "^7.1.3",
